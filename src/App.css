@@ -1,0 +1,104 @@
+.main-conatiner {
+  background-color: #c0bcbc;
+  height: fit-content;
+  text-align: -webkit-center;
+  width: 100vw;
+  padding-bottom: 10vh;
+}
+
+
+
+div#root {
+  margin-top: -19px;
+}
+div#container {
+  height: fit-content;
+  margin-top: 2vh;
+  background-color: white;
+  border: 1px solid blue;
+  width: 40vw;
+}
+.sub1 {
+  display: flex;
+  padding-top: 4vh;
+  margin-top: 2vh;
+  border-top: 2px solid #050586;
+  align-items: center;
+  flex-direction: column;
+}
+.sub {
+  display: flex;
+  padding-top: 9vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.counters {
+  display: flex;
+  height: 8vh;
+}
+
+button.add-sub-btn {
+  height: 5vh;
+  background-color: #010152;
+  color: white;
+  width: 5vh;
+  border: none;
+}
+
+.right {
+  right: -12vh;
+  position: relative;
+  border-radius: 0px 11px 11px 0px;
+}
+
+.left {
+  position: relative;
+  left: 5vh;
+  border-radius: 11px 0px 0px 11px;
+}
+
+input.input-tag {
+  text-align-last: center;
+  height: 4.7vh;
+  width: 7vh;
+  background-color: lightgray;
+  border: none;
+}
+
+h3.counterss {
+  margin-top: 3px;
+}
+
+button.btn {
+  width: 10vw;
+  background-color: #010152;
+  color: white;
+  border: none;
+  height: 5vh;
+  border-radius: 10px;
+  font-size: large;
+}
+
+.results-container {text-align: center;margin-top: 9px;margin-bottom: 5vh;
+}
+
+.result-text {
+  justify-content: center;
+  display: flex;
+  /* width: 10vw; */
+}
+
+h4.res-text {
+  margin-top: 2px;
+  margin-right: 7vw;
+}
+
+h3.res-text {margin-top: 0px;margin-right: 7vw;}
+
+.result-output {
+  width: 3vw;
+  background-color: lightgray;
+  height: 4vh;
+  border-radius: 5px;
+}
